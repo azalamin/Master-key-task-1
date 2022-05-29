@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
           <a
             href="#home"
-            class="text-2xl font-['PT Sans', sans-serif] font-bold"
+            className="text-2xl font-['PT Sans', sans-serif] font-bold"
           >
             {/* <img src={logo} className="max-w-xs" alt="" /> */}
             LOGO
@@ -18,9 +18,9 @@ const Navbar = () => {
           <span className="text-success">BN</span> / EN
         </div>
       </div>
-      <div class="flex justify-around items-center">
+      <div className="flex justify-around items-center">
         <div>
-          <ul class="menu menu-horizontal p-0">
+          <ul className="menu menu-horizontal p-0">
             <li>
               <CustomLink to="/" className="text-sm">
                 HOME
@@ -57,13 +57,13 @@ const Navbar = () => {
           <div className="bg-base-100 px-4 py-4 rounded-3xl drop-shadow-lg">
             <a
               href="#btn"
-              class="px-6 py-2 hover:bg-secondary rounded-3xl uppercase hover:text-white"
+              className="px-6 py-2 hover:bg-secondary rounded-3xl uppercase hover:text-white login-btn"
             >
               Login
             </a>
             <a
               href="#btn"
-              class="px-5 py-2 bg-secondary rounded-3xl text-white uppercase ml-3  hover:bg-base-100 hover:text-black"
+              className="px-5 py-2 bg-secondary rounded-3xl text-white uppercase ml-3  hover:bg-base-100 hover:text-black custom-btn"
             >
               Sign up
             </a>

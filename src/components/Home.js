@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import Available from "./Available";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
@@ -11,6 +12,7 @@ const Home = () => {
         <Banner />
       </header>
       <Available />
+      <Outlet />
     </div>
   );
 };
