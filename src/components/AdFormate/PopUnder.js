@@ -5,7 +5,7 @@ import pop from '../../assets/under.png';
 const PopUnder = () => {
   return (
     <div className="mt-20 md:flex justify-center gap-20">
-      <div class="bg-primary text-primary-content md:w-[50%]">
+      <div className="bg-primary text-primary-content md:w-[50%]">
         <img className="w-full h-full" src={pop} alt="" />
       </div>
       <div className="md:w-[50%] flex flex-col justify-between">

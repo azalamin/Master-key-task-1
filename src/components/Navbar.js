@@ -2,7 +2,6 @@ import React from "react";
 import CustomLink from "./CustomLink";
 
 const Navbar = () => {
-
   return (
     <nav className="px-5">
       <div className="flex justify-between items-center pt-5">
@@ -21,11 +20,11 @@ const Navbar = () => {
       <div className="dropdown">
         <label
           tabIndex="0"
-          class="btn btn-circle swap swap-rotate mt-5 lg:hidden"
+          className="btn btn-circle swap swap-rotate mt-5 lg:hidden"
         >
           <input type="checkbox" />
           <svg
-            class="swap-off fill-current"
+            className="swap-off fill-current"
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -34,7 +33,7 @@ const Navbar = () => {
             <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
           </svg>
           <svg
-            class="swap-on fill-current"
+            className="swap-on fill-current"
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -45,7 +44,7 @@ const Navbar = () => {
         </label>
         <ul
           tabIndex="0"
-          class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+          className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
         >
           <li>
             <CustomLink to="/" className="text-sm">
@@ -91,22 +90,22 @@ const Navbar = () => {
             >
               CONTACT US
             </a>
-            <li>
-              <a
-                href="#btn"
-                className="py-1 hover:bg-secondary rounded-3xl uppercase hover:text-white login-btn"
-              >
-                Login
-              </a>
-            </li>
-            <li>
-              <a
-                href="#btn"
-                className="py-1 bg-secondary rounded-3xl text-white uppercase sm:ml-3  hover:bg-base-100 hover:text-black custom-btn mt-2 sm:mt-0"
-              >
-                Sign up
-              </a>
-            </li>
+          </li>
+          <li>
+            <a
+              href="#btn"
+              className="py-1 hover:bg-secondary rounded-3xl uppercase hover:text-white login-btn"
+            >
+              Login
+            </a>
+          </li>
+          <li>
+            <a
+              href="#btn"
+              className="py-1 bg-secondary rounded-3xl text-white uppercase sm:ml-3  hover:bg-base-100 hover:text-black custom-btn mt-2 sm:mt-0"
+            >
+              Sign up
+            </a>
           </li>
         </ul>
       </div>
