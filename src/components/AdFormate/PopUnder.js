@@ -4,13 +4,13 @@ import pop from '../../assets/under.png';
 
 const PopUnder = () => {
   return (
-    <div className="mt-20 flex justify-center gap-20">
-      <div class="card bg-primary text-primary-content w-[50%]">
-        <img className="" src={pop} alt="" />
+    <div className="mt-20 md:flex justify-center gap-20">
+      <div class="bg-primary text-primary-content md:w-[50%]">
+        <img className="w-full h-full" src={pop} alt="" />
       </div>
-      <div className="w-[50%] flex flex-col justify-between">
+      <div className="md:w-[50%] flex flex-col justify-between">
         <div>
-          <h3 className="text-secondary mb-8 font-semibold uppercase">
+          <h3 className="text-secondary mb-8 mt-10 md:mt-0 font-semibold uppercase">
             Pop-under
           </h3>
           <p>

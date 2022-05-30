@@ -17,9 +17,9 @@ const Slider = () => {
     <div>
       <div class="carousel w-full">
         <div id="item1" class="carousel-item w-full py-20">
-          <div className="flex justify-center items-center gap-10 mx-auto">
-            <div className="custom-shadow bg-white p-3 rounded-3xl w-[40%]">
-              <div class="card card-side bg-base-100 border border-dashed border-red-500">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-10 mx-auto px-5">
+            <div className="custom-shadow bg-white p-3 rounded-3xl md:w-[40%]">
+              <div class="card sm:card-side bg-base-100 border border-dashed border-red-500">
                 <figure>
                   <img
                     className="p-4"
@@ -35,8 +35,8 @@ const Slider = () => {
                 </div>
               </div>
             </div>
-            <div className="custom-shadow bg-white p-3 rounded-3xl w-[40%]">
-              <div class="card card-side bg-base-100 border border-dashed border-red-500">
+            <div className="custom-shadow bg-white p-3 rounded-3xl md:w-[40%]">
+              <div class="card sm:card-side bg-base-100 border border-dashed border-red-500">
                 <figure>
                   <img
                     className="p-4"
@@ -56,9 +56,9 @@ const Slider = () => {
           </div>
         </div>
         <div id="item2" class="carousel-item w-full">
-          <div className="flex justify-center items-center gap-10 mx-auto">
-            <div className="custom-shadow bg-white p-3 rounded-3xl w-[40%]">
-              <div class="card card-side bg-base-100 border border-dashed border-red-500">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-10 mx-auto px-5">
+            <div className="custom-shadow bg-white p-3 rounded-3xl md:w-[40%]">
+              <div class="card sm:card-side bg-base-100 border border-dashed border-red-500">
                 <figure>
                   <img
                     className="p-4"
@@ -74,8 +74,8 @@ const Slider = () => {
                 </div>
               </div>
             </div>
-            <div className="custom-shadow bg-white p-3 rounded-3xl w-[40%]">
-              <div class="card card-side bg-base-100 border border-dashed border-red-500">
+            <div className="custom-shadow bg-white p-3 rounded-3xl md:w-[40%]">
+              <div class="card sm:card-side bg-base-100 border border-dashed border-red-500">
                 <figure>
                   <img
                     className="p-4"
@@ -94,9 +94,9 @@ const Slider = () => {
           </div>
         </div>
         <div id="item3" class="carousel-item w-full">
-          <div className="flex justify-center items-center gap-10 mx-auto">
-            <div className="custom-shadow bg-white p-3 rounded-3xl w-[40%]">
-              <div class="card card-side bg-base-100 border border-dashed border-red-500">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-10 mx-auto px-5">
+            <div className="custom-shadow bg-white p-3 rounded-3xl md:w-[40%]">
+              <div class="card sm:card-side bg-base-100 border border-dashed border-red-500">
                 <figure>
                   <img
                     className="p-4"
@@ -112,8 +112,8 @@ const Slider = () => {
                 </div>
               </div>
             </div>
-            <div className="custom-shadow bg-white p-3 rounded-3xl w-[40%]">
-              <div class="card card-side bg-base-100 border border-dashed border-red-500">
+            <div className="custom-shadow bg-white p-3 rounded-3xl md:w-[40%]">
+              <div class="card sm:card-side bg-base-100 border border-dashed border-red-500">
                 <figure>
                   <img
                     className="p-4"
@@ -132,9 +132,9 @@ const Slider = () => {
           </div>
         </div>
         <div id="item4" class="carousel-item w-full">
-          <div className="flex justify-center items-center gap-10 mx-auto">
-            <div className="custom-shadow bg-white p-3 rounded-3xl w-[40%]">
-              <div class="card card-side bg-base-100 border border-dashed border-red-500">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-10 mx-auto px-5">
+            <div className="custom-shadow bg-white p-3 rounded-3xl md:w-[40%]">
+              <div class="card sm:card-side bg-base-100 border border-dashed border-red-500">
                 <figure>
                   <img
                     className="p-4"
@@ -150,8 +150,8 @@ const Slider = () => {
                 </div>
               </div>
             </div>
-            <div className="custom-shadow bg-white p-3 rounded-3xl w-[40%]">
-              <div class="card card-side bg-base-100 border border-dashed border-red-500">
+            <div className="custom-shadow bg-white p-3 rounded-3xl md:w-[40%]">
+              <div class="card sm:card-side bg-base-100 border border-dashed border-red-500">
                 <figure>
                   <img
                     className="p-4"
@@ -170,7 +170,7 @@ const Slider = () => {
           </div>
         </div>
       </div>
-      <div class="flex justify-center w-full py-10 gap-2 my-10">
+      <div class="flex justify-center w-full py-10 gap-2  sm:my-10">
         <a
           href={`#item${increase}`}
           onClick={() => setIncrease(increase + 1)}
