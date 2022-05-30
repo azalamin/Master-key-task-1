@@ -10,25 +10,25 @@ const AdFormate = () => {
         <SectionTitle>Versatile ad formats</SectionTitle>
         <div className="flex justify-center gap-20 mt-10">
           <AdFormateCustomLink
-            to="/ad-formate/pop-under"
+            to="/"
             className="btn btn-sm bg-[#F2F2F2] text-black border-0 hover:text-white hover:btn-secondary px-20 rounded-3xl py-2 custom-btn"
           >
             POP-Under
           </AdFormateCustomLink>
           <AdFormateCustomLink
-            to="/ad-formate/banner-ad"
+            to="/banner-ad"
             className="btn btn-sm bg-[#F2F2F2] text-black border-0 hover:btn-secondary hover:text-white px-20 rounded-3xl py-2 custom-btn"
           >
             Banner ad
           </AdFormateCustomLink>
           <AdFormateCustomLink
-            to="/ad-formate/native"
+            to="/native"
             className="btn btn-sm bg-[#F2F2F2] text-black border-0 hover:btn-secondary hover:text-white px-20 rounded-3xl py-2 custom-btn"
           >
             Native
           </AdFormateCustomLink>
           <AdFormateCustomLink
-            to="/ad-formate/skim"
+            to="/skim"
             className="btn btn-sm bg-[#F2F2F2] text-black border-0 hover:btn-secondary hover:text-white px-20 rounded-3xl py-2 custom-btn"
           >
             Skim

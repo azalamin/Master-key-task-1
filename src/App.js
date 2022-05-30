@@ -11,8 +11,8 @@ function App() {
     <div className="bg-[#F8F8F8]">
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route path="/ad-formate" element={<AdFormate />}>
-            <Route path="pop-under" element={<PopUnder />} />
+          <Route path="/" element={<AdFormate />}>
+            <Route path="/" element={<PopUnder />} />
             <Route path="native" element={<Native />} />
             <Route path="banner-ad" element={<BannerAd />} />
             <Route path="skim" element={<Skim />} />
