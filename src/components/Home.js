@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Available from "./Available";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
+import Summary from "./Summary";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       </header>
       <Available />
       <Outlet />
+      <Summary />
     </div>
   );
 };
