@@ -10,7 +10,6 @@ const Navbar = () => {
             href="#home"
             className="text-2xl font-['PT Sans', sans-serif] font-bold"
           >
-            {/* <img src={logo} className="max-w-xs" alt="" /> */}
             LOGO
           </a>
         </div>
@@ -27,29 +26,29 @@ const Navbar = () => {
               </CustomLink>
             </li>
             <li>
-              <CustomLink to="/advertiser" className="text-sm">
+              <a href="#advertiser" className="text-sm hover:text-secondary text-primary">
                 ADVERTISER
-              </CustomLink>
+              </a>
             </li>
             <li>
-              <CustomLink to="/publisher" className="text-sm">
+              <a href="#publisher" className="text-sm hover:text-secondary text-primary">
                 PUBLISHER
-              </CustomLink>
+              </a>
             </li>
             <li>
-              <CustomLink to="/influencer" className="text-sm">
+              <a href="#influencer" className="text-sm hover:text-secondary text-primary">
                 INFLUENCER
-              </CustomLink>
+              </a>
             </li>
             <li>
-              <CustomLink to="/formate" className="text-sm">
+              <a href="#formate" className="text-sm hover:text-secondary text-primary">
                 AD FORMATE
-              </CustomLink>
+              </a>
             </li>
             <li>
-              <CustomLink to="/contact" className="text-sm">
+              <a href="#contact" className="text-sm hover:text-secondary text-primary">
                 CONTACT US
-              </CustomLink>
+              </a>
             </li>
           </ul>
         </div>

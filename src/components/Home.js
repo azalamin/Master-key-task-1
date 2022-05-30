@@ -1,8 +1,10 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import Footer from "../Shared/Footer";
 import Available from "./Available";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
+import Slider from "./Slider";
 import Summary from "./Summary";
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
       <Available />
       <Outlet />
       <Summary />
+      <Slider />
+      <Footer />
     </div>
   );
 };
